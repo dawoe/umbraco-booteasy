@@ -3,7 +3,7 @@
     /// <summary>
     /// The boot types
     /// </summary>
-    public enum BootType
+    internal enum BootType
     {       
         Starting,
         Started,
