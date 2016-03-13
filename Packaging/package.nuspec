@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Our.Umbraco.BootEasy</id>
+        <version>0.0.0</version>
+        <title>A framework for easy handling of umbraco startup events</title>
+        <authors>Dave Woestenborghs</authors>
+        <owners>Dave Woestenborghs</owners>
+        <projectUrl>https://github.com/dawoe/umbraco-booteasy</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/dawoe/umbraco-loadbalancing-dashboard/master/icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easily hook in to the Umbraco start up events by just implementing just implementing a class</description>
+        <summary>Easily hook in to the Umbraco start up events by just implementing just implementing a class. No more hooking in to events your self. This makes easy to reuse the code between projects and other developers</summary>
+        <copyright>Dave Woestenborghs</copyright>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <language>en-GB</language>
+        <tags>umbraco</tags>
+        <dependencies>
+            <dependency id="UmbracoCms.Core" version="7.3.0" />
+        </dependencies>		
+    </metadata>    	
+</package>
