@@ -275,6 +275,7 @@
     <Compile Include="BootRegistrars\ApplicationStartedBootRegistrar.cs" />
     <Compile Include="BootRegistrars\ApplicationStartingBootRegistrar.cs" />
     <Compile Include="Enums\BootType.cs" />
+    <Compile Include="Extensions\PluginManagerExtensions.cs" />
     <Compile Include="Interfaces\IBootRegistrar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
