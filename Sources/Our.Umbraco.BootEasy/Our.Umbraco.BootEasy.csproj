@@ -271,6 +271,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootRegistrars\ApplicationInitializedBootRegistrar.cs" />
+    <Compile Include="BootRegistrars\ApplicationStartedBootRegistrar.cs" />
+    <Compile Include="BootRegistrars\ApplicationStartingBootRegistrar.cs" />
     <Compile Include="Enums\BootType.cs" />
     <Compile Include="Interfaces\IBootRegistrar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

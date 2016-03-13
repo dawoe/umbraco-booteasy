@@ -8,7 +8,7 @@
         /// <summary>
         /// Gets the sort order.
         /// </summary>
-        int SortOrder { get; }
+        int SortOrder { get; set; }
 
         /// <summary>
         /// Gets the boot type.
