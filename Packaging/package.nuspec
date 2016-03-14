@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Our.Umbraco.BootEasy</id>
+        <version>0.0.0</version>
+        <title>BootEasy for Umbraco</title>
+        <authors>Dave Woestenborghs</authors>
+        <owners>Dave Woestenborghs</owners>
+        <projectUrl>https://github.com/dawoe/umbraco-booteasy</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/dawoe/umbraco-booteasy/master/icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>BootEasy is a small framework to help hooking in to the Umbraco startup events.</description>
+        <summary>Instead of implementing a class that inherits from Umbraco.Core.ApplicationEventHandler and hooking into the different startup events, with BootEasy you will implement a class inherting one of the base classes provided by BootEasy to hook in to these events. For more information see https://github.com/dawoe/umbraco-booteasy </summary>
+        <copyright>Dave Woestenborghs</copyright>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <language>en-GB</language>
+        <tags>umbraco</tags>
+        <dependencies>
+            <dependency id="UmbracoCms.Core" version="7.3.0" />
+        </dependencies>		
+    </metadata>    	
+</package>
