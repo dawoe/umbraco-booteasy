@@ -5,7 +5,7 @@
 			<name>Our.Umbraco.BootEasy</name>
 			<version>0.0.0</version>
 			<license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
-			<url>https://our.umbraco.org/projects/backoffice-extensions/loadbalancing-information-dashboard/</url>
+			<url>https://our.umbraco.org/projects/developer-tools/booteasy/</url>
 			<requirements>
 				<major>0</major>
 				<minor>0</minor>
@@ -14,9 +14,11 @@
 		</package>
 		<author>
 			<name>Dave Woestenborghs</name>
-			<website>https://github.com/dawoe/umbraco-loadbalancing-dashboard</website>
+			<website>https://github.com/dawoe/umbraco-booteasy</website>
 		</author>
-		<readme><![CDATA[A framework for easy handling of umbraco startup events]]></readme>
+		<readme>
+      <![CDATA[BootEasy is a small framework to help hooking in to the Umbraco startup events.
+Instead of implementing a class that inherits from Umbraco.Core.ApplicationEventHandler and hooking into the different startup events, with BootEasy you will implement a class inherting one of the base classes provided by BootEasy to hook in to these events.]]></readme>
 	</info>
 
 	<DocumentTypes />
